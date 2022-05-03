@@ -7,7 +7,7 @@ test('Emtpy the stack', () => {
     stack.push(42);
     stack.push(42);
     
-    expect(stack.stack()).toBe(4);
+    expect(stack.stack()).toBe(5);
 });
 
 test('Add string with space', () => {
