@@ -17,3 +17,8 @@ exports.peek = function () {
     return _.last(stack);
 }
 
+// Returnerar hela stacken stacken
+exports.stack = function () {
+    return stack.length;
+}
+
